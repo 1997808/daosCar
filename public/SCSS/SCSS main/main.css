@@ -1,10 +1,82 @@
-.picture {
-  height: 70vh;
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap");
+.body .picture {
+  height: 100vh;
   background-image: url("../../images/115440_black-car-wallpapers_1280x1024_h.jpg");
   background-size: cover; }
-  .picture .pictureText {
+  .body .picture .pictureText {
     color: #eee;
-    font-size: 40px; }
+    height: 70%; }
+    .body .picture .pictureText h2 {
+      font-size: 60px;
+      font-weight: 100; }
+.body .boardCar {
+  color: #222;
+  height: 80vh; }
+  .body .boardCar h3 {
+    font-size: 60px;
+    font-weight: 100; }
+  .body .boardCar h4 {
+    font-weight: 700; }
+  .body .boardCar .boardRight .boardRight_1 {
+    overflow: hidden;
+    height: 30vh;
+    background-color: #ff8800;
+    color: #eee; }
+    .body .boardCar .boardRight .boardRight_1 img {
+      width: 100%;
+      height: auto; }
+  .body .boardCar .boardRight_small .boardRight_2 {
+    height: 45vh;
+    background-color: #eee; }
+  .body .boardCar .boardRight_small .boardRight_3 {
+    height: 50vh;
+    background-color: #bbb;
+    overflow: hidden; }
+    .body .boardCar .boardRight_small .boardRight_3 img {
+      position: absolute;
+      bottom: -20%;
+      width: 200%;
+      height: auto; }
+  .body .boardCar .boardLeft .boardLeft_4 {
+    height: 30vh;
+    background-color: #eee; }
+  .body .boardCar .boardLeft .boardLeft_5 {
+    height: 40vh;
+    background-color: #666;
+    color: #eee; }
+.body .boardCar2 {
+  color: #222;
+  height: 80vh; }
+  .body .boardCar2 h3 {
+    font-size: 60px;
+    font-weight: 100; }
+  .body .boardCar2 h4 {
+    font-weight: 700; }
+  .body .boardCar2 .boardRight .boardRight_6 {
+    overflow: hidden;
+    height: 55vh;
+    background-image: url("../../images/original.jpg");
+    background-size: cover;
+    color: #eee; }
+    .body .boardCar2 .boardRight .boardRight_6 img {
+      width: 100%;
+      height: auto; }
+  .body .boardCar2 .boardLeft .boardLeft_7 {
+    overflow: hidden;
+    height: 30vh;
+    background-color: #222;
+    color: #eee; }
+    .body .boardCar2 .boardLeft .boardLeft_7 img {
+      width: 100%;
+      height: auto; }
+  .body .boardCar2 .boardLeft .boardLeft_8 {
+    overflow: hidden;
+    height: 20vh;
+    background-color: #ff8800;
+    color: #eee; }
+    .body .boardCar2 .boardLeft .boardLeft_8 img {
+      width: 100%;
+      height: auto; }
 
 .header {
   height: 80px;
@@ -16,7 +88,7 @@
   .header div {
     width: 100%; }
     .header div .brandLogo {
-      font-size: 20px;
+      font-size: 26px;
       color: #eee; }
     .header div .menuIcon {
       height: 30px;
