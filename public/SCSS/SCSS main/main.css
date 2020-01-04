@@ -1,0 +1,40 @@
+.picture {
+  height: 70vh;
+  background-image: url("../../images/115440_black-car-wallpapers_1280x1024_h.jpg");
+  background-size: cover; }
+  .picture .pictureText {
+    color: #eee;
+    font-size: 40px; }
+
+.header {
+  height: 80px;
+  background-color: #222;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header div {
+    width: 100%; }
+    .header div .brandLogo {
+      font-size: 20px;
+      color: #eee; }
+    .header div .menuIcon {
+      height: 30px;
+      width: 30px;
+      color: #eee; }
+
+.footer {
+  height: 200px;
+  background-color: #222;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer div {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .footer div .footerList, .footer div .footerCar, .footer div .footerNote {
+      color: #eee; }
+
+/*# sourceMappingURL=main.css.map */
