@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap");
+.body .boxMargin {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
 .body .picture {
   height: 100vh;
-  background-image: url("../../images/115440_black-car-wallpapers_1280x1024_h.jpg");
+  background-image: linear-gradient(to bottom, rgba(100, 100, 100, 0.1), #161616), url("../../images/115440_black-car-wallpapers_1280x1024_h.jpg");
   background-size: cover; }
   .body .picture .pictureText {
     color: #eee;
@@ -10,27 +14,29 @@
       font-size: 60px;
       font-weight: 100; }
 .body .boardCar {
-  color: #222;
-  height: 80vh; }
+  color: #eee;
+  background: #222; }
   .body .boardCar h3 {
     font-size: 60px;
     font-weight: 100; }
   .body .boardCar h4 {
     font-weight: 700; }
   .body .boardCar .boardRight .boardRight_1 {
+    margin-right: -15px;
     overflow: hidden;
     height: 30vh;
-    background-color: #ff8800;
-    color: #eee; }
+    background: #ff8800; }
     .body .boardCar .boardRight .boardRight_1 img {
       width: 100%;
       height: auto; }
   .body .boardCar .boardRight_small .boardRight_2 {
     height: 45vh;
-    background-color: #eee; }
+    border: 1px solid #bbb; }
   .body .boardCar .boardRight_small .boardRight_3 {
+    margin-right: -15px;
     height: 50vh;
-    background-color: #bbb;
+    background: #bbb;
+    color: #222;
     overflow: hidden; }
     .body .boardCar .boardRight_small .boardRight_3 img {
       position: absolute;
@@ -39,44 +45,35 @@
       height: auto; }
   .body .boardCar .boardLeft .boardLeft_4 {
     height: 30vh;
-    background-color: #eee; }
+    background: #eee;
+    color: #222; }
   .body .boardCar .boardLeft .boardLeft_5 {
     height: 40vh;
-    background-color: #666;
-    color: #eee; }
+    background: #555; }
 .body .boardCar2 {
-  color: #222;
-  height: 80vh; }
+  color: #eee;
+  background: #eee; }
   .body .boardCar2 h3 {
     font-size: 60px;
     font-weight: 100; }
   .body .boardCar2 h4 {
     font-weight: 700; }
-  .body .boardCar2 .boardRight .boardRight_6 {
-    overflow: hidden;
-    height: 55vh;
-    background-image: url("../../images/original.jpg");
-    background-size: cover;
-    color: #eee; }
-    .body .boardCar2 .boardRight .boardRight_6 img {
-      width: 100%;
-      height: auto; }
+  .body .boardCar2 .boardRight {
+    padding-right: 0px; }
+    .body .boardCar2 .boardRight .boardRight_6 {
+      overflow: hidden;
+      height: 55vh;
+      background-image: url("../../images/original.jpg");
+      background-size: cover; }
+      .body .boardCar2 .boardRight .boardRight_6 img {
+        width: 100%;
+        height: auto; }
   .body .boardCar2 .boardLeft .boardLeft_7 {
-    overflow: hidden;
     height: 30vh;
-    background-color: #222;
-    color: #eee; }
-    .body .boardCar2 .boardLeft .boardLeft_7 img {
-      width: 100%;
-      height: auto; }
+    background: #222; }
   .body .boardCar2 .boardLeft .boardLeft_8 {
-    overflow: hidden;
     height: 20vh;
-    background-color: #ff8800;
-    color: #eee; }
-    .body .boardCar2 .boardLeft .boardLeft_8 img {
-      width: 100%;
-      height: auto; }
+    background: #ff8800; }
 
 .header {
   height: 80px;
