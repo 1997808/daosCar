@@ -3,6 +3,13 @@
   margin-top: 15px;
   padding-top: 15px;
   padding-bottom: 15px; }
+.body .rowMargin {
+  margin-bottom: 15px;
+  padding-bottom: 15px; }
+.body .headerMargin {
+  margin-top: 15px;
+  padding-top: 15px;
+  display: block; }
 .body .picture {
   height: 100vh;
   background-image: linear-gradient(to bottom, rgba(100, 100, 100, 0.1), #161616), url("../../images/115440_black-car-wallpapers_1280x1024_h.jpg");
@@ -15,7 +22,7 @@
       font-weight: 100; }
 .body .boardCar {
   color: #eee;
-  background: #222; }
+  background: #111; }
   .body .boardCar h3 {
     font-size: 60px;
     font-weight: 100; }
@@ -24,31 +31,35 @@
   .body .boardCar .boardRight .boardRight_1 {
     margin-right: -15px;
     overflow: hidden;
-    height: 30vh;
-    background: #ff8800; }
+    height: 250px;
+    background: #ff7800;
+    position: relative; }
     .body .boardCar .boardRight .boardRight_1 img {
-      width: 100%;
+      position: absolute;
+      right: -30%;
+      width: 70%;
       height: auto; }
   .body .boardCar .boardRight_small .boardRight_2 {
-    height: 45vh;
+    height: 450px;
     border: 1px solid #bbb; }
   .body .boardCar .boardRight_small .boardRight_3 {
     margin-right: -15px;
-    height: 50vh;
+    height: 500px;
     background: #bbb;
-    color: #222;
-    overflow: hidden; }
+    color: #111;
+    overflow: hidden;
+    position: relative; }
     .body .boardCar .boardRight_small .boardRight_3 img {
       position: absolute;
       bottom: -20%;
-      width: 200%;
+      width: 150%;
       height: auto; }
   .body .boardCar .boardLeft .boardLeft_4 {
-    height: 30vh;
+    height: 300px;
     background: #eee;
-    color: #222; }
+    color: #111; }
   .body .boardCar .boardLeft .boardLeft_5 {
-    height: 40vh;
+    height: 400px;
     background: #555; }
 .body .boardCar2 {
   color: #eee;
@@ -58,26 +69,28 @@
     font-weight: 100; }
   .body .boardCar2 h4 {
     font-weight: 700; }
+  .body .boardCar2 h4:first-child {
+    color: #111; }
   .body .boardCar2 .boardRight {
     padding-right: 0px; }
     .body .boardCar2 .boardRight .boardRight_6 {
       overflow: hidden;
-      height: 55vh;
+      height: 550px;
       background-image: url("../../images/original.jpg");
       background-size: cover; }
       .body .boardCar2 .boardRight .boardRight_6 img {
         width: 100%;
         height: auto; }
   .body .boardCar2 .boardLeft .boardLeft_7 {
-    height: 30vh;
-    background: #222; }
+    height: 300px;
+    background: #111; }
   .body .boardCar2 .boardLeft .boardLeft_8 {
-    height: 20vh;
-    background: #ff8800; }
+    height: 200px;
+    background: #ff7800; }
 
 .header {
   height: 80px;
-  background-color: #222;
+  background-color: #111;
   position: relative;
   display: flex;
   justify-content: center;
@@ -85,7 +98,7 @@
   .header div {
     width: 100%; }
     .header div .brandLogo {
-      font-size: 26px;
+      font-size: 24px;
       color: #eee; }
     .header div .menuIcon {
       height: 30px;
@@ -94,7 +107,7 @@
 
 .footer {
   height: 200px;
-  background-color: #222;
+  background-color: #111;
   position: relative;
   display: flex;
   justify-content: center;
@@ -105,5 +118,99 @@
     justify-content: center; }
     .footer div .footerList, .footer div .footerCar, .footer div .footerNote {
       color: #eee; }
+
+.bodyPrice {
+  height: 100vh; }
+  .bodyPrice .showCar .navCar {
+    height: 100px; }
+  .bodyPrice .showCar .mainCar {
+    height: 660px; }
+    .bodyPrice .showCar .mainCar .active {
+      color: #ff7800; }
+    .bodyPrice .showCar .mainCar p {
+      margin: 0; }
+    .bodyPrice .showCar .mainCar ul {
+      height: 660px;
+      writing-mode: vertical-rl;
+      margin: 0px; }
+      .bodyPrice .showCar .mainCar ul li {
+        color: #555;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        transition: linear 0.2s; }
+      .bodyPrice .showCar .mainCar ul li:hover {
+        color: #ff7800; }
+    .bodyPrice .showCar .mainCar .mainImage img {
+      object-fit: contain; }
+    .bodyPrice .showCar .mainCar .imageBox img {
+      width: 140px;
+      margin: 0 15px;
+      opacity: 0.5;
+      object-fit: contain; }
+    .bodyPrice .showCar .mainCar .imageBox .active {
+      opacity: 1; }
+    .bodyPrice .showCar .mainCar .optionBox {
+      text-align: center; }
+      .bodyPrice .showCar .mainCar .optionBox .optionText {
+        font-weight: 500; }
+      .bodyPrice .showCar .mainCar .optionBox img {
+        width: 160px;
+        object-fit: contain;
+        margin-top: 30px; }
+  .bodyPrice .showCar .searchCar {
+    height: 145px;
+    border-top: 1px solid #bbb; }
+    .bodyPrice .showCar .searchCar .active {
+      color: #ff7800;
+      border-top: 2px solid #ff7800; }
+    .bodyPrice .showCar .searchCar ul {
+      height: 144px;
+      margin: 0px; }
+      .bodyPrice .showCar .searchCar ul li {
+        border-top: 2px solid white;
+        color: #555;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: linear 0.2s; }
+      .bodyPrice .showCar .searchCar ul li:hover {
+        color: #ff7800;
+        border-top: 2px solid #ff7800; }
+  .bodyPrice .showMenu {
+    background: #111;
+    color: #eee;
+    height: 100vh; }
+    .bodyPrice .showMenu .Menu {
+      height: 100px;
+      color: #555; }
+      .bodyPrice .showMenu .Menu li {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: linear 0.3s; }
+      .bodyPrice .showMenu .Menu li:hover {
+        color: #eee; }
+    .bodyPrice .showMenu .Card {
+      background: #222;
+      padding: 20px;
+      margin-bottom: 15px;
+      height: 180px; }
+      .bodyPrice .showMenu .Card img {
+        height: 150px;
+        object-fit: contain; }
+      .bodyPrice .showMenu .Card p {
+        font-weight: 100;
+        font-size: 12px;
+        color: #bbb;
+        margin: 0; }
+      .bodyPrice .showMenu .Card .cardText {
+        color: #eee; }
+        .bodyPrice .showMenu .Card .cardText .carName {
+          font-size: 16px; }
+    .bodyPrice .showMenu .active {
+      background: #555; }
 
 /*# sourceMappingURL=main.css.map */

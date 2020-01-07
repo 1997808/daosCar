@@ -3,6 +3,16 @@
         margin-top: 15px
         padding-top: 15px
         padding-bottom: 15px
+        
+    .rowMargin
+        margin-bottom: 15px
+        padding-bottom: 15px
+    
+    .headerMargin
+        margin-top: 15px
+        padding-top: 15px
+        display: block
+
     .picture 
         height: 100vh
         background-image: linear-gradient(to bottom, rgba(100, 100, 100, 0.1), rgba(22, 22, 22, 1)), url("../../images/115440_black-car-wallpapers_1280x1024_h.jpg")
@@ -28,37 +38,41 @@
             .boardRight_1
                 margin-right: -15px
                 overflow: hidden
-                height: 30vh
+                height: 250px
                 background: $base_color
+                position: relative
                 img
-                    width: 100%
+                    position: absolute
+                    right: -30%
+                    width: 70%
                     height: auto
 
         .boardRight_small
             .boardRight_2
-                height: 45vh
+                height: 450px
                 border: 1px solid $base_color_gray_1
                 
             .boardRight_3
                 margin-right: -15px
-                height: 50vh
+                height: 500px
                 background: $base_color_gray_1
                 color: $base_color_black
                 overflow: hidden
+                position: relative
                 img
                     position: absolute
                     bottom: -20%
-                    width: 200%
+                    width: 150%
                     height: auto
 
         .boardLeft
             .boardLeft_4
-                height: 30vh
+                height: 300px
                 background: $base_color_white
                 color: $base_color_black
                 
             .boardLeft_5
-                height: 40vh
+                height: 400px
                 background: $base_color_gray_2
 
 
@@ -71,11 +85,14 @@
         h4 
             font-weight: 700
 
+        h4:first-child
+            color: $base_color_black
+
         .boardRight
             padding-right: 0px
             .boardRight_6
                 overflow: hidden
-                height: 55vh
+                height: 550px
                 background-image: url("../../images/original.jpg")
                 background-size: cover
                 img
@@ -84,8 +101,8 @@
 
         .boardLeft
             .boardLeft_7
-                height: 30vh
+                height: 300px
                 background: $base_color_black
             .boardLeft_8
-                height: 20vh
+                height: 200px
                 background: $base_color
