@@ -122,15 +122,26 @@
 .bodyPrice {
   height: 100vh; }
   .bodyPrice .showCar .navCar {
-    height: 100px; }
+    height: 100px;
+    border-bottom: 1px solid #bbb; }
+    .bodyPrice .showCar .navCar .backIcon {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bodyPrice .showCar .navCar .backIcon svg {
+        height: 50px; }
+      .bodyPrice .showCar .navCar .backIcon h4 {
+        font-size: 30px;
+        height: 30px; }
   .bodyPrice .showCar .mainCar {
-    height: 660px; }
+    height: 700px; }
     .bodyPrice .showCar .mainCar .active {
       color: #ff7800; }
     .bodyPrice .showCar .mainCar p {
       margin: 0; }
     .bodyPrice .showCar .mainCar ul {
-      height: 660px;
+      height: 700px;
       writing-mode: vertical-rl;
       margin: 0px; }
       .bodyPrice .showCar .mainCar ul li {
